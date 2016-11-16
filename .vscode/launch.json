@@ -22,6 +22,26 @@
             "outDir": null
         },
         {
+            "name": "Test",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/node_modules/gulp/bin/gulp.js",
+            "stopOnEntry": false,
+            "args": ["test"],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console":"internalConsole",
+            "sourceMaps": false,
+            "outDir": null
+        },
+        {
             "name": "Attach",
             "type": "node",
             "request": "attach",
