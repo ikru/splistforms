@@ -3,6 +3,7 @@ import 'todomvc-app-css/index.css';
 
 import {TodoService} from './app/todos/todos';
 import {App} from './app/containers/App';
+// import {SP} from './app/sp/ListOfLists';
 import {Header} from './app/components/Header';
 import {MainSection} from './app/components/MainSection';
 import {TodoTextInput} from './app/components/TodoTextInput';
@@ -18,6 +19,7 @@ angular
   .config(routesConfig)
   .service('todoService', TodoService)
   .component('app', App)
+  // .component('sp', SP)
   .component('headerComponent', Header)
   .component('footerComponent', Footer)
   .component('mainSection', MainSection)
