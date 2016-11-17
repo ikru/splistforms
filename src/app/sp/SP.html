@@ -1,1 +1,5 @@
-<form style="padding:20px;padding-bottom:10px" sf-schema="$ctrl.schema" sf-form="$ctrl.form" sf-model="$ctrl.model"></form>
+<h1>{{$ctrl.header}}</h1>
+<form style="padding:20px;padding-bottom:10px" name="myForm"
+      sf-schema="$ctrl.schema" sf-form="$ctrl.form" sf-model="$ctrl.model"
+      ng-submit="$ctrl.onSubmit(myForm)"
+      ></form>

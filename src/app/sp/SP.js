@@ -21,15 +21,18 @@ class SPController {
       }
     ];
     this.model = {};
-    // this.onSubmit = function (form) {
-    //   // First we broadcast an event so all fields validate themselves
-    //   this.$broadcast('schemaFormValidate');
+    this.header = "Form";
+    this.onSubmit = function (form) {
+      // First we broadcast an event so all fields validate themselves
+      // Couldn't find an option to broadcast events for ES6
+      // this.$broadcast('schemaFormValidate');
 
-    //   // Then we check if the form is valid
-    //   if (form.$valid) {
-    //     // ... do whatever you need to do with your data.
-    //   }
-    // };
+      // Then we check if the form is valid
+      this.header = `${this.header} submitted`;
+      if (form.$valid) {
+        // ... do whatever you need to do with your data.
+      }
+    };
   }
 }
 
