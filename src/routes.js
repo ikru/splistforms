@@ -7,11 +7,11 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
 
   $stateProvider
     .state('app', {
-      url: '/',
+      url: '/app',
       component: 'app'
     })
     .state('sp', {
-      url: '/sp',
+      url: '/',
       component: 'sp'
     });
 }

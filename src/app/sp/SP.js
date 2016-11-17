@@ -1,14 +1,15 @@
 // import {SHOW_ALL} from '../app/constants/TodoFilters';
 // import {initialTodo} from '../app/todos/todos';
 
-class ListOfListsController {
-  // constructor() {
+class SPController {
+  constructor() {
+    this.qwe = "d";
     // this.todos = [initialTodo];
     // this.filter = SHOW_ALL;
-  // }
+  }
 }
 
-export const ListOfLists = {
-  template: require('./ListOfLists.html'),
-  controller: ListOfListsController
+export const SP = {
+  template: require('./SP.html'),
+  controller: SPController
 };
