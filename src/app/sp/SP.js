@@ -8,6 +8,7 @@ class SPController {
       properties: {
         title: {
           type: "string",
+          title: "Title",
           enum: ['dr', 'jr', 'sir', 'mrs', 'mr', 'dj']
         },
         name: {type: "string", minLength: 2, title: "Name", description: "Name or alias"}
