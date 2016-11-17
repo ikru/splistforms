@@ -16,7 +16,7 @@ describe('MainSection component', () => {
 
   beforeEach(() => {
     angular
-      .module('mainSection', ['app/components/MainSection.html'])
+      .module('mainSection', ['app/components/todo/MainSection.html'])
       .service('todoService', MockTodoService)
       .component('mainSection', MainSection);
     angular.mock.module('mainSection');

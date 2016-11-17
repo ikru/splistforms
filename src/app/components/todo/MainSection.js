@@ -1,4 +1,4 @@
-import visibilityFilters from '../constants/VisibilityFilters';
+import visibilityFilters from '../../constants/VisibilityFilters';
 
 class MainSectionController {
   /** @ngInject */

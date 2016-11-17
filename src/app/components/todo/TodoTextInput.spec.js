@@ -8,7 +8,7 @@ describe('TodoTextInput component', () => {
 
   beforeEach(() => {
     angular
-      .module('todoTextInput', ['app/components/TodoTextInput.html'])
+      .module('todoTextInput', ['app/components/todo/TodoTextInput.html'])
       .service('todoService', MockTodoService)
       .component('todoTextInput', TodoTextInput);
     angular.mock.module('todoTextInput');

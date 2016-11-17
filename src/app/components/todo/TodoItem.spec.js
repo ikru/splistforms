@@ -5,7 +5,7 @@ import {TodoItem} from './TodoItem';
 describe('TodoItem component', () => {
   beforeEach(() => {
     angular
-      .module('todoItem', ['app/components/TodoItem.html'])
+      .module('todoItem', ['app/components/todo/TodoItem.html'])
       .component('todoItem', TodoItem);
     angular.mock.module('todoItem');
   });
